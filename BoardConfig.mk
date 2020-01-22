@@ -137,6 +137,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := a6plte-debug_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a6plte
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
@@ -146,7 +147,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_HAS_LARGE_FILESYSTEM := true
-BOARD_ROOT_EXTRA_FOLDERS   := efs
+BOARD_ROOT_EXTRA_FOLDERS   := dsp efs firmware firmware-modem persist
 BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/dsp:/dsp \
     /vendor/firmware_mnt:/firmware \

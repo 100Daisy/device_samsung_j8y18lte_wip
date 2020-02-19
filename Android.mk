@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-ifeq ($(TARGET_DEVICE),a6plte)
+ifeq ($(TARGET_DEVICE),j8y18lte)
 
 LOCAL_PATH := $(call my-dir)
 

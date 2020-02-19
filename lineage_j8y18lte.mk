@@ -43,7 +43,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a6plte/device.mk)
+$(call inherit-product, device/samsung/j8y18lte/device.mk)
 
 # Overlay
 PRODUCT_PACKAGE_OVERLAYS += \
@@ -64,9 +64,17 @@ PRODUCT_PACKAGES += \
 endif
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a6plte
-PRODUCT_DEVICE := a6plte
+PRODUCT_NAME := lineage_j8y18lte
+PRODUCT_DEVICE := j8y18lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A605
+PRODUCT_MODEL := SM-J810M
 PRODUCT_MANUFACTURER := samsung
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+TARGET_VENDOR := samsung
+TARGET_VENDOR_PRODUCT_NAME := j8y18lte
+
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="j8y18lteub-user 8.0.0 R16NW J810MUBS2ARL2 release-keys"
+
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := samsung/j8y18lteub/j8y18lte:8.0.0/R16NW/J810MUBS2ARL2:user/release-keys

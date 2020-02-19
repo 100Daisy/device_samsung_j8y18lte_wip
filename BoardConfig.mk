@@ -11,7 +11,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a6plte
+DEVICE_PATH := device/samsung/j8y18lte
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8953
@@ -132,12 +132,12 @@ BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware_mnt/image
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_OFFSET = 0x00008000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
+BOARD_KERNEL_TAGS_OFFSET := 0x00008000
 BOARD_RAMDISK_OFFSET := 0x02000000
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CONFIG := a6plte-debug_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/a6plte
+TARGET_KERNEL_CONFIG := j8y18lte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/msm8953
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
@@ -220,6 +220,6 @@ TARGET_RECOVERY_UI_MARGIN_WIDTH := 20
 TARGET_RECOVERY_UI_MARGIN_STATUSBAR = 20
 
 ifeq ($(BUILD_TWRP),true)
-TARGET_KERNEL_CONFIG := a6plte-recovery_defconfig
+TARGET_KERNEL_CONFIG := j8y18lte-recovery_defconfig
 include $(DEVICE_PATH)/twrp.mk
 endif

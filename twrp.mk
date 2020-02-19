@@ -17,10 +17,10 @@
 BOARD_VNDK_RUNTIME_DISABLE := true
 RECOVERY_VARIANT := twrp
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)/twrp vendor/samsung/a6plte/proprietary
+TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)/twrp vendor/samsung/j8y18lte/proprietary
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_RECOVERY_QCOM_RTC_FIX := true
-TW_DEVICE_VERSION := a6plte-junak-1
+TW_DEVICE_VERSION := j8y18lte-junak-1
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone10/temp

@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a6plte/device.mk)
+$(call inherit-product, device/samsung/j8y18lte/device.mk)
 
 # Overlay
 PRODUCT_PACKAGE_OVERLAYS += \
@@ -49,16 +49,16 @@ PRODUCT_PACKAGES += \
 	vendor.lineage.livedisplay@2.0-service.samsung-qcom
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a6plte
-PRODUCT_DEVICE := a6plte
+PRODUCT_NAME := lineage_j8y18lte
+PRODUCT_DEVICE := j8y18lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A605
+PRODUCT_MODEL := SM-J810M
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	BUILD_FINGERPRINT=samsung/a6pltexx/a6plte:9/PPR1.180610.011/A605FNXXU4BSH3:user/release-keys \
-	PRIVATE_BUILD_DESC="a6plte-user 9 PPR1.180610.011 A605FNXXU4BSH3 release-keys"
+	BUILD_FINGERPRINT=samsung/j8y18ltexx/j8y18lte:9/PPR1.180610.011/A605FNXXU4BSH3:user/release-keys \
+	PRIVATE_BUILD_DESC="j8y18lte-user 9 PPR1.180610.011 A605FNXXU4BSH3 release-keys"
 
-BUILD_FINGERPRINT := samsung/a6pltexx/a6plte:9/PPR1.180610.011/A605FNXXU4BSH3:user/release-keys
+BUILD_FINGERPRINT := samsung/j8y18ltexx/j8y18lte:9/PPR1.180610.011/A605FNXXU4BSH3:user/release-keys

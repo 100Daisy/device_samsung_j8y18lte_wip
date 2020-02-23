@@ -86,7 +86,7 @@ vendor/etc/camera/A24QL_s5k2x7sp_module_info.xml
 vendor/etc/camera/P05QF_sr556_module_info.xml
 vendor/etc/camera/s5k2p6sx_chromatix.xml
 vendor/etc/camera/s5k2x7sp_chromatix.xml
-vendor/etc/camera/sdm450_camera_a6plte.xml
+vendor/etc/camera/sdm450_camera_j8y18lte.xml
 vendor/etc/camera/sr556_chromatix.xml
 vendor/etc/camera/T16QL_s5k2p6sx_module_info.xml
 vendor/etc/media_codecs_8953_v1.xml

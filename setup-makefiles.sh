@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=a6plte
+DEVICE=j8y18lte
 VENDOR=samsung
 
 INITIAL_COPYRIGHT_YEAR=2017

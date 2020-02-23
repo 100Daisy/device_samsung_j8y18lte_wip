@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo lineage_a6plte-userdebug
-add_lunch_combo lineage_a6plte-eng
+add_lunch_combo lineage_j8y18lte-userdebug
+add_lunch_combo lineage_j8y18lte-eng

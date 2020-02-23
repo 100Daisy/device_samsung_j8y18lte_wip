@@ -373,4 +373,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml
 
 	# Call the proprietary setup
-$(call inherit-product, vendor/samsung/a6plte/a6plte-vendor.mk)
+$(call inherit-product, vendor/samsung/j8y18lte/j8y18lte-vendor.mk)
